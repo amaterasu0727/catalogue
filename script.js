@@ -561,7 +561,7 @@ const produits = [
         id: 63,
         nom: "Routeur WiFi 4G Airtel Haute Vitesse",
         prix: "9 000",
-        image: "routeur-airtel.jpg",
+        image: "routeur-Airtel.jpg",
         tags: "électronique, internet, wifi, réseau, informatique",
         description: "Restez connecté à haute vitesse. Partagez votre connexion avec toute la famille ou au bureau sans ralentissement.",
         dispo: true
@@ -897,7 +897,7 @@ const produits = [
         tags: "cuisine blender électroménager",
         image: "blender.jpg",
         description: "Blender professionnel pour préparer vos smoothies et cocktails.",
-        dispo: true
+        dispo: false
     },
     {
         id: 101,
