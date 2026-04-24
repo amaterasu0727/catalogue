@@ -397,7 +397,7 @@ const produits = [
     },
     {
         id: 45,
-        nom: "Gourde Motivationnelle Grande Capacité 1L",
+        nom: "Gourde Thermos Grande Capacité 1L",
         prix: "3 500",
         image: "gourde1L.jpg",
         tags: "sport, hydratation, gourde, fitness, santé",
@@ -642,7 +642,7 @@ const produits = [
         id: 72,
         nom: "Parfum 'Yes I Can'",
         prix: "2 500",
-        image: "yesICan.jpg",
+        image: "YesICan.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "L'odeur de la détermination. Un parfum audacieux qui booste votre confiance dès le matin.",
         dispo: true
