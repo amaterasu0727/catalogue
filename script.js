@@ -399,7 +399,7 @@ const produits = [
         id: 45,
         nom: "Gourde Motivationnelle Grande Capacité 1L",
         prix: "3 500",
-        image: "gourde1l.jpg",
+        image: "gourde1L.jpg",
         tags: "sport, hydratation, gourde, fitness, santé",
         description: "Atteignez vos objectifs d'eau. Des marquages pour vous motiver à boire tout au long de la journée.",
         dispo: true
@@ -417,7 +417,7 @@ const produits = [
         id: 47,
         nom: "Projecteur LED Professionnel Haute Puissance",
         prix: "16 500",
-        image: "ledpro.jpg",
+        image: "ledPro.jpg",
         tags: "électronique, éclairage, pro, extérieur, sécurité",
         description: "La puissance ultime pour vos chantiers ou jardins. Une robustesse à toute épreuve pour un éclairage longue durée.",
         dispo: true
@@ -462,7 +462,7 @@ const produits = [
         id: 52,
         nom: "Parfum Now",
         prix: "5 500",
-        image: "now.jpg",
+        image: "Now.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "Vivez l'instant présent. Une fragrance dynamique et fraîche qui laisse un sillage mémorable derrière vous.",
         dispo: true
@@ -498,7 +498,7 @@ const produits = [
         id: 56,
         nom: "Parfum 24K Pure Gold Luxury Edition",
         prix: "3 000",
-        image: "parfum24k.jpg",
+        image: "parfum24K.jpg",
         tags: "beauté, parfum, luxe, or, prestige",
         description: "L'odeur du succès. Un parfum riche et intense pour ceux qui aiment marquer leur présence avec prestige.",
         dispo: true
@@ -633,7 +633,7 @@ const produits = [
         id: 71,
         nom: "Ventilateur Roch sur Pied Puissant",
         prix: "10 000",
-        image: "ventiloroch.jpg",
+        image: "ventiloRoch.jpg",
         tags: "électronique, maison, roch, fraîcheur, ventilateur",
         description: "La fiabilité Roch pour votre intérieur. Silencieux et performant pour vous garantir des nuits paisibles.",
         dispo: true
@@ -642,7 +642,7 @@ const produits = [
         id: 72,
         nom: "Parfum 'Yes I Can'",
         prix: "2 500",
-        image: "yesican.jpg",
+        image: "yesICan.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "L'odeur de la détermination. Un parfum audacieux qui booste votre confiance dès le matin.",
         dispo: true
