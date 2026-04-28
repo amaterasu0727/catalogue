@@ -744,7 +744,7 @@ const produits = [
         tags: "mode chaussure sport confort",
         image: "chaussure.jpg",
         description: "Chaussures confortables pour le sport et les sorties quotidiennes.",
-        dispo: true
+        dispo: false
     },
     {
         id: 84,
@@ -753,7 +753,7 @@ const produits = [
         tags: "mode vêtement homme complet",
         image: "complet.jpg",
         description: "Costume classique pour homme, élégant et professionnel.",
-        dispo: true
+        dispo: false
     },
     {
         id: 85,
@@ -771,7 +771,7 @@ const produits = [
         tags: "mode vêtement homme complet",
         image: "complet2.jpg",
         description: "Complet élégant pour occasions spéciales, tissu de qualité.",
-        dispo: true
+        dispo: false
     },
     {
         id: 87,
@@ -870,7 +870,7 @@ const produits = [
         tags: "mode vêtement jogging sport nike",
         image: "joggingnike.jpg",
         description: "Jogging Nike haute performance pour les athlètes.",
-        dispo: true
+        dispo: false
     },
     {
         id: 98,
@@ -951,7 +951,7 @@ const produits = [
         tags: "mode accessoire sac main luxe femme",
         image: "pedra3.jpg",
         description: "Sac de luxe Pedra pour occasions spéciales.",
-        dispo: true
+        dispo: false
     },
     {
         id: 107,
