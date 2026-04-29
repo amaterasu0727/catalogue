@@ -282,7 +282,7 @@ const produits = [
         id: 32,
         nom: "Casque Sans Fil P9 Premium Design",
         prix: "3 500",
-        image: "casquep9.jpg",
+        image: "casqueP9.jpg",
         tags: "électronique, audio, musique, casque, luxe",
         description: "L'élégance au service du son. Un design épuré et une connexion Bluetooth rapide pour un usage quotidien fluide.",
         dispo: true
@@ -291,7 +291,7 @@ const produits = [
         id: 33,
         nom: "Casque Bluetooth P39 Color Edition",
         prix: "4 000",
-        image: "casquep39.jpg",
+        image: "casqueP39.jpg",
         tags: "électronique, audio, musique, casque, mode",
         description: "Affichez votre style en musique. Des couleurs vives et un confort d'écoute idéal pour les transports ou le sport.",
         dispo: true
@@ -462,7 +462,7 @@ const produits = [
         id: 52,
         nom: "Parfum Now",
         prix: "5 500",
-        image: "NOW.jpg",
+        image: "Now.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "Vivez l'instant présent. Une fragrance dynamique et fraîche qui laisse un sillage mémorable derrière vous.",
         dispo: true
@@ -561,7 +561,7 @@ const produits = [
         id: 63,
         nom: "Routeur WiFi 4G Airtel Haute Vitesse",
         prix: "9 000",
-        image: "Routeur-Airtel.jpg",
+        image: "routeur-Airtel.jpg",
         tags: "électronique, internet, wifi, réseau, informatique",
         description: "Restez connecté à haute vitesse. Partagez votre connexion avec toute la famille ou au bureau sans ralentissement.",
         dispo: true
