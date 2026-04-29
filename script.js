@@ -105,7 +105,7 @@ const produits = [
         tags: "chicha electronique fumé vapeur tabac ",
         image: "chicha.jpg",
         description: "Une expérience de vapeur longue durée. Design ergonomique et autonomie record pour savourer vos arômes préférés.",
-        dispo: true
+        dispo: false
     },
     {
         id: 13,
