@@ -282,7 +282,7 @@ const produits = [
         id: 32,
         nom: "Casque Sans Fil P9 Premium Design",
         prix: "3 500",
-        image: "casqueP9.jpg",
+        image: "casquep9.jpg",
         tags: "électronique, audio, musique, casque, luxe",
         description: "L'élégance au service du son. Un design épuré et une connexion Bluetooth rapide pour un usage quotidien fluide.",
         dispo: true
@@ -291,7 +291,7 @@ const produits = [
         id: 33,
         nom: "Casque Bluetooth P39 Color Edition",
         prix: "4 000",
-        image: "casqueP39.jpg",
+        image: "casquep39.jpg",
         tags: "électronique, audio, musique, casque, mode",
         description: "Affichez votre style en musique. Des couleurs vives et un confort d'écoute idéal pour les transports ou le sport.",
         dispo: true
@@ -397,9 +397,9 @@ const produits = [
     },
     {
         id: 45,
-        nom: "Gourde Thermos Grande Capacité 1L",
+        nom: "Gourde Motivationnelle Grande Capacité 1L",
         prix: "3 500",
-        image: "gourde1L.jpg",
+        image: "gourde1l.jpg",
         tags: "sport, hydratation, gourde, fitness, santé",
         description: "Atteignez vos objectifs d'eau. Des marquages pour vous motiver à boire tout au long de la journée.",
         dispo: true
@@ -417,7 +417,7 @@ const produits = [
         id: 47,
         nom: "Projecteur LED Professionnel Haute Puissance",
         prix: "16 500",
-        image: "ledPro.jpg",
+        image: "ledpro.jpg",
         tags: "électronique, éclairage, pro, extérieur, sécurité",
         description: "La puissance ultime pour vos chantiers ou jardins. Une robustesse à toute épreuve pour un éclairage longue durée.",
         dispo: true
@@ -462,7 +462,7 @@ const produits = [
         id: 52,
         nom: "Parfum Now",
         prix: "5 500",
-        image: "Now.jpg",
+        image: "now.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "Vivez l'instant présent. Une fragrance dynamique et fraîche qui laisse un sillage mémorable derrière vous.",
         dispo: true
@@ -498,7 +498,7 @@ const produits = [
         id: 56,
         nom: "Parfum 24K Pure Gold Luxury Edition",
         prix: "3 000",
-        image: "parfum24K.jpg",
+        image: "parfum24k.jpg",
         tags: "beauté, parfum, luxe, or, prestige",
         description: "L'odeur du succès. Un parfum riche et intense pour ceux qui aiment marquer leur présence avec prestige.",
         dispo: true
@@ -561,7 +561,7 @@ const produits = [
         id: 63,
         nom: "Routeur WiFi 4G Airtel Haute Vitesse",
         prix: "9 000",
-        image: "routeur-Airtel.jpg",
+        image: "routeur-airtel.jpg",
         tags: "électronique, internet, wifi, réseau, informatique",
         description: "Restez connecté à haute vitesse. Partagez votre connexion avec toute la famille ou au bureau sans ralentissement.",
         dispo: true
@@ -633,7 +633,7 @@ const produits = [
         id: 71,
         nom: "Ventilateur Roch sur Pied Puissant",
         prix: "10 000",
-        image: "ventiloRoch.jpg",
+        image: "ventiloroch.jpg",
         tags: "électronique, maison, roch, fraîcheur, ventilateur",
         description: "La fiabilité Roch pour votre intérieur. Silencieux et performant pour vous garantir des nuits paisibles.",
         dispo: true
@@ -642,7 +642,7 @@ const produits = [
         id: 72,
         nom: "Parfum 'Yes I Can'",
         prix: "2 500",
-        image: "YesICan.jpg",
+        image: "yesican.jpg",
         tags: "maison, salon, meuble, décoration, luxe",
         description: "L'odeur de la détermination. Un parfum audacieux qui booste votre confiance dès le matin.",
         dispo: true
@@ -681,7 +681,7 @@ const produits = [
         tags: "mode chaussure basket New balance sport",
         image: "basket-N2.jpg",
         description: "Chaussures de sport New balance avec un design moderne et un amorti exceptionnel.",
-        dispo: true
+        dispo: false
     },
     {
         id: 77,
@@ -708,7 +708,7 @@ const produits = [
         tags: "mode chaussure basket New balance sport",
         image: "basket-new.jpg",
         description: "Nouvelle édition New balance avec technologie avancée pour une performance optimale.",
-        dispo: true
+        dispo: false
     },
     {
         id: 80,
@@ -717,7 +717,7 @@ const produits = [
         tags: "mode chaussure basket New balance sport",
         image: "basket-new2.jpg",
         description: "Version améliorée des baskets New balance, idéale pour les amateurs de basket.",
-        dispo: true
+        dispo: false
     },
     {
         id: 81,
@@ -744,7 +744,7 @@ const produits = [
         tags: "mode chaussure sport confort",
         image: "chaussure.jpg",
         description: "Chaussures confortables pour le sport et les sorties quotidiennes.",
-        dispo: false
+        dispo: true
     },
     {
         id: 84,
@@ -771,7 +771,7 @@ const produits = [
         tags: "mode vêtement homme complet",
         image: "complet2.jpg",
         description: "Complet élégant pour occasions spéciales, tissu de qualité.",
-        dispo: false
+        dispo: true
     },
     {
         id: 87,
@@ -834,7 +834,7 @@ const produits = [
         tags: "maison meuble guéridon rangement salon",
         image: "gueridon2en1.jpg",
         description: "Guéridon avec rangement intégré, pratique et élégant.",
-        dispo: true
+        dispo: false
     },
     {
         id: 94,
@@ -852,7 +852,7 @@ const produits = [
         tags: "mode vêtement jogging sport adidas",
         image: "joggingadds1.jpg",
         description: "Jogging Adidas avec design moderne et tissu respirant.",
-        dispo: true
+        dispo: false
     },
     {
         id: 96,
@@ -861,7 +861,7 @@ const produits = [
         tags: "mode vêtement jogging sport adidas",
         image: "joggingadds2.jpg",
         description: "Version stylée du jogging Adidas pour un look casual.",
-        dispo: true
+        dispo: false
     },
     {
         id: 97,
@@ -870,7 +870,7 @@ const produits = [
         tags: "mode vêtement jogging sport nike",
         image: "joggingnike.jpg",
         description: "Jogging Nike haute performance pour les athlètes.",
-        dispo: false
+        dispo: true
     },
     {
         id: 98,
@@ -951,7 +951,7 @@ const produits = [
         tags: "mode accessoire sac main luxe femme",
         image: "pedra3.jpg",
         description: "Sac de luxe Pedra pour occasions spéciales.",
-        dispo: false
+        dispo: true
     },
     {
         id: 107,
@@ -1086,7 +1086,7 @@ const produits = [
         tags: "mode chaussure basket new balance sport",
         image: "basket-new3.jpg",
         description: "Édition limitée New balance avec innovations technologiques.",
-        dispo: true
+        dispo: false
     },
     {
         id: 122,
@@ -1104,7 +1104,7 @@ const produits = [
         tags: "mode chaussure basket new balance sport",
         image: "basket-new5.jpg",
         description: "La dernière édition New balance, parfaite pour les passionnés.",
-        dispo: true
+        dispo: false
     },
     {
         id: 124,
@@ -1142,15 +1142,18 @@ function afficherProduits(liste) {
     grid.innerHTML = ""; 
 
     liste.forEach(p => {
-        
         const cardClass = p.dispo ? "" : "outofstock-card";
         const statusClass = p.dispo ? "instock" : "outofstock";
         const statusText = p.dispo ? "✔ En Stock" : "✘ Rupture de stock";
         const btnClass = p.dispo ? "" : "disabled";
         const btnText = p.dispo ? "Commander sur WhatsApp" : "Bientôt de retour";
-        const btnUrl = p.dispo ? `https://wa.me/2290157129474?text=Bonjour Amaterasu Shop, je veux commander : ${p.nom}` : "#";
+    
+        const actionClick = p.dispo ? `onclick="preparerCommande('${p.nom}', '${p.prix}')"` : "";
+        const hrefValue = "javascript:void(0)";
+        
         const cheminImage = `image/${p.image}`;
         const description = p.description || "Découvrez ce produit exceptionnel chez Amaterasu Shop.";
+        
         const card = `
             <div class="product-card ${cardClass}" data-name="${p.nom}" data-tags="${p.tags}">
                 <img src="${cheminImage}" alt="${p.nom}" class="product-img" style="cursor: zoom-in;" onclick="openModal('${cheminImage}', '${p.nom}')" loading="lazy">
@@ -1159,7 +1162,7 @@ function afficherProduits(liste) {
                     <h3>${p.nom}</h3>
                     <p style="font-size: 0.8rem; color: #666; margin: 5px 0;">${description}</p>
                     <p class="price">${p.prix} FCFA</p>
-                    <a href="${btnUrl}" class="btn-whatsapp ${btnClass}">
+                    <a href="${hrefValue}" ${actionClick} class="btn-whatsapp ${btnClass}">
                        ${btnText}
                     </a>
                 </div>
@@ -1169,83 +1172,36 @@ function afficherProduits(liste) {
     });
 }
 
+
 // 3. LANCEMENT INITIAL
 document.addEventListener('DOMContentLoaded', () => {
     afficherProduits(produits);
 });
 
-// 4. SYSTÈME DE RECHERCHE & CATÉGORIES (Adapté au template)
-function applyFilters(query) {
-    const filtered = produits.filter(p => 
-        p.nom.toLowerCase().includes(query) || 
-        p.tags.toLowerCase().includes(query)
-    );
-    afficherProduits(filtered);
-}
+// 4. FONCTION DE COMMANDE
+function preparerCommande(nomProduit, prixProduit) {
+    // Récupérer les éléments de livraison
+    const zoneSelect = document.getElementById('deliveryZone');
+    const frais = zoneSelect ? zoneSelect.value : 0;
+    const nomZone = zoneSelect ? zoneSelect.options[zoneSelect.selectedIndex].text : "";
 
-function filterCategory(cat) {
-    document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    
-    if(cat === 'all') {
-        afficherProduits(produits);
+    let message = `Bonjour Amaterasu Shop, je veux commander : ${nomProduit} (${prixProduit} FCFA).`;
+
+    // Si une zone est sélectionnée (prix > 0)
+    if (frais > 0) {
+        const total = parseInt(prixProduit.replace(/\s/g, '')) + parseInt(frais);
+        message += `\n\n📍 Livraison : ${nomZone}`;
+        message += `\n💰 Total estimé : ${total.toLocaleString()} FCFA`;
     } else {
-        const filtered = produits.filter(p => p.tags.includes(cat));
-        afficherProduits(filtered);
+        message += `\n\n(Note : Je n'ai pas encore sélectionné ma zone de livraison sur le site).`;
     }
+
+    // Ouvrir WhatsApp
+    const whatsappUrl = `https://wa.me/2290157129474?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
 }
 
-// Retour en haut (garde ton code précédent ici)
-function filterProducts() {
-    let input = document.getElementById('searchInput').value.toLowerCase();
-    let cards = document.querySelectorAll('.product-card');
-    let container = document.getElementById('productGrid');
-    
-    cards.forEach(card => {
-        let name = card.getAttribute('data-name').toLowerCase();
-        let tags = card.getAttribute('data-tags').toLowerCase();
-        
-        // Si moins de 2 lettres, on affiche tout sans tri
-        if (input.length < 2) {
-            card.style.display = "block";
-            card.style.order = "0"; 
-            return;
-        }
-
-        // 1. Match exact dans le NOM (Priorité 1)
-        if (name.includes(input)) {
-            card.style.display = "block";
-            card.style.order = "1";
-        } 
-        // 2. Match dans les TAGS (Priorité 2)
-        else if (tags.includes(input)) {
-            card.style.display = "block";
-            card.style.order = "2";
-        } 
-        // 3. Aucun match
-        else {
-            card.style.display = "none";
-        }
-    });
-}
-// FONCTION DE RECHERCHE EXISTANTE (Améliorée)
-function filterProducts() {
-    let input = document.getElementById('searchInput').value.toLowerCase();
-    applyFilters(input);
-}
-
-// NOUVELLE FONCTION POUR LES CATÉGORIES
-function filterCategory(catName) {
-    // Gérer l'apparence des boutons
-    document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-
-    let input = (catName === 'all') ? "" : catName;
-    document.getElementById('searchInput').value = input; // Remplit la barre pour feedback visuel
-    applyFilters(input.toLowerCase());
-}
-
-// LOGIQUE COMMUNE DE FILTRAGE
+// 5. SYSTÈME DE RECHERCHE & FILTRES
 function applyFilters(query) {
     let cards = document.querySelectorAll('.product-card');
     cards.forEach(card => {
@@ -1260,7 +1216,24 @@ function applyFilters(query) {
     });
 }
 
-// GESTION DU BOUTON RETOUR EN HAUT
+// FONCTION DE RECHERCHE
+function filterProducts() {
+    let input = document.getElementById('searchInput').value.toLowerCase();
+    applyFilters(input);
+}
+
+// FONCTION POUR LES CATÉGORIES
+function filterCategory(catName) {
+    // Gérer l'apparence des boutons
+    document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    let input = (catName === 'all') ? "" : catName;
+    document.getElementById('searchInput').value = input;
+    applyFilters(input.toLowerCase());
+}
+
+// 6. GESTION DU BOUTON RETOUR EN HAUT
 window.onscroll = function() {
     let btn = document.getElementById("backToTop");
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
@@ -1273,6 +1246,8 @@ window.onscroll = function() {
 function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
+
+// 7. FONCTION DE TRI DES PRODUITS
 function sortProducts() {
     let criteria = document.getElementById('sortPrice').value;
     let produitsTries = [...produits]; // On copie la liste originale
@@ -1294,7 +1269,8 @@ function sortProducts() {
     // On ré-affiche la liste triée
     afficherProduits(produitsTries);
 }
-// FONCTION POUR OUVRIR L'IMAGE EN GRAND
+
+// 8. FONCTION POUR L'IMAGE EN GRAND
 function openModal(src, title) {
     const modal = document.getElementById("imageModal");
     const modalImg = document.getElementById("fullImage");
@@ -1305,7 +1281,7 @@ function openModal(src, title) {
     captionText.innerHTML = title;
 }
 
-// FONCTION POUR FERMER
+// FONCTION POUR FERMER LE MODAL
 function closeModal() {
     document.getElementById("imageModal").style.display = "none";
 }

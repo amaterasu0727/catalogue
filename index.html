@@ -24,6 +24,7 @@
     <button class="cat-btn" onclick="filterCategory('sport')">Sport</button>
     <button class="cat-btn" onclick="filterCategory('cuisine')">Cuisine</button>
     </div>
+    <section id="livraison-section">
     <div class="sort-section">
     <div class="sort-wrapper">
         <label for="sortPrice" class="couleur">Trier par :</label>
@@ -35,13 +36,40 @@
     </div>
 </div>
 
+<section id="rapide-service-calculator" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); padding: 15px; margin: 10px 20px; border-radius: 8px; border: 1px solid var(--gold);">
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <span style="font-size: 20px; margin-right: 10px;">🚚</span>
+        <strong style="color: var(--gold);">Estimer ma livraison (Rapides Services)</strong>
+    </div>
+    
+    <select id="deliveryZone" onchange="updateDeliveryDisplay()" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; background: #fff; color: #333;">
+        <option value="0">-- Sélectionnez votre quartier --</option>
+        <option value="1000">Aïdjedo / Agori-Plateau / Fifadji (1.000 F)</option>
+        <option value="1000">Fidjrossè / Calavi / Togoudo (1.000 F)</option>
+        <option value="1000">Zogbadjè / Tankpè / Houédonou (1.000 F)</option>
+        <option value="1200">Agblangandan / Cococodji / Arconville / Pahou (1.200 F)</option>
+        <option value="1300">Zopah (1.300 F)</option>
+        <option value="1500">Akassato / Sèkandji / Hêvié / Ouèdo (1.500 F)</option>
+        <option value="1700">Agassa-Godomey (1.700 F)</option>
+        <option value="1800">Adjagbo (1.800 F)</option>
+        <option value="2000">PK 10 / Ekpè / Sèmè-Podji (2.000 F)</option>
+        <option value="2500">Sèmè-Kraké / Glo-Djigbé / Zinvié (2.500 F)</option>
+        <option value="3500">Ouidah (3.500 F)</option>
+    </select>
+    
+    <p id="deliveryPricePreview" style="margin-top: 10px; font-weight: bold; color: #25D366; display: none;">
+        Frais à prévoir : <span id="deliveryAmount">0</span> FCFA
+    </p>
+    <strong>NB : Pour tout achat d'articles dont le montant total est supérieure ou égale a 20 0000 FCFA la livraison est offerte.</strong>
+</section>
+
 </header>
 <div class="trust-bar">
     <div class="trust-item">
         <span class="trust-icon">🚚</span>
         <div>
             <strong>Livraison Rapide</strong>
-            <p>Partout en 24h/48h</p>
+            <p>Partout en moins de 24h</p>
         </div>
     </div>
     <div class="trust-item">
