@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATERASU SHOP | Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AMATERASU SHOP</h1>
+    <p>L'éclat de la qualité à votre portée</p>
+    
+    
+    <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Rechercher un article (ex: écouteur, montre...)" onkeyup="filterProducts()">
+    </div>
+    <div class="categories-bar">
+    <button class="cat-btn active" onclick="filterCategory('all')">Tout</button>
+    <button class="cat-btn" onclick="filterCategory('electronique')">Électronique</button>
+    <button class="cat-btn" onclick="filterCategory('maison')">Maison</button>
+    <button class="cat-btn" onclick="filterCategory('mode')">Mode</button>
+    <button class="cat-btn" onclick="filterCategory('sport')">Sport</button>
+    <button class="cat-btn" onclick="filterCategory('cuisine')">Cuisine</button>
+    <button class="cat-btn" onclick="filterCategory('montre')">Montre</button>
+    </div>
+    <section id="livraison-section">
+    <div class="sort-section">
+    <div class="sort-wrapper">
+        <label for="sortPrice" class="couleur">Trier par :</label>
+        <select id="sortPrice" onchange="sortProducts()">
+            <option value="default">Ordre par défaut</option>
+            <option value="low">Prix : Petit → Grand</option>
+            <option value="high">Prix : Grand → Petit</option>
+        </select>
+    </div>
+</div>
+
+<section id="rapide-service-calculator" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); padding: 15px; margin: 10px 20px; border-radius: 8px; border: 1px solid var(--gold);">
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <span style="font-size: 20px; margin-right: 10px;">🚚</span>
+        <strong style="color: var(--gold);">Estimer ma livraison (Rapides Services)</strong>
+    </div>
+    
+    <select id="deliveryZone" onchange="updateDeliveryDisplay()" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; background: #fff; color: #333;">
+        <option value="0">-- Sélectionnez votre quartier --</option>
+        <option value="1000">Aïdjedo / Agori-Plateau / Fifadji (1.000 F)</option>
+        <option value="1000">Fidjrossè / Calavi / Togoudo (1.000 F)</option>
+        <option value="1000">Zogbadjè / Tankpè / Houédonou (1.000 F)</option>
+        <option value="1200">Agblangandan / Cococodji / Arconville / Pahou (1.200 F)</option>
+        <option value="1300">Zopah (1.300 F)</option>
+        <option value="1500">Akassato / Sèkandji / Hêvié / Ouèdo (1.500 F)</option>
+        <option value="1700">Agassa-Godomey (1.700 F)</option>
+        <option value="1800">Adjagbo (1.800 F)</option>
+        <option value="2000">PK 10 / Ekpè / Sèmè-Podji (2.000 F)</option>
+        <option value="2500">Sèmè-Kraké / Glo-Djigbé / Zinvié (2.500 F)</option>
+        <option value="3500">Ouidah (3.500 F)</option>
+    </select>
+    
+    <p id="deliveryPricePreview" style="margin-top: 10px; font-weight: bold; color: #25D366; display: none;">
+        Frais à prévoir : <span id="deliveryAmount">0</span> FCFA
+    </p>
+    <strong>NB : Pour tout achat d'articles dont le montant total est supérieure ou égale a 20 0000 FCFA la livraison est offerte.</strong>
+</section>
+
+</header>
+<div class="trust-bar">
+    <div class="trust-item">
+        <span class="trust-icon">🚚</span>
+        <div>
+            <strong>Livraison Rapide</strong>
+            <p>Partout en moins de 24h</p>
+        </div>
+    </div>
+    <div class="trust-item">
+        <span class="trust-icon">✨</span>
+        <div>
+            <strong>Qualité Premium</strong>
+            <p>Articles vérifiés</p>
+        </div>
+    </div>
+    <div class="trust-item">
+        <span class="trust-icon">📞</span>
+        <div>
+            <strong>Support 7j/7</strong>
+            <p>Assistance WhatsApp</p>
+        </div>
+    </div>
+   <div class="trust-item">
+    <span class="trust-icon">🤝</span>
+    <div>
+        <strong>Paiement Sécurisé</strong>
+        <p>Acompte ou à la livraison*</p>
+    </div>
+</div>
+</div>
+
+<div class="container" id="productGrid">
+</div>
+
+<script src="script.js"></script>
+
+<footer>
+    <div class="footer-content" style="max-width: 1200px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; text-align: left; padding: 0 20px;">
+        <div>
+            <h3 style="color: var(--gold);">AMATERASU SHOP</h3>
+            <p>Votre boutique de confiance pour tous vos articles de qualité. L'éclat du soleil dans votre quotidien.</p>
+        </div>
+        <div>
+           <h3 style="color: var(--gold);">FAQ Rapide</h3>
+    <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 1.6;">
+        <li>📍 Localisation : Cotonou, Bénin</li>
+        <li>📦 Retours : Sous 48h si problème</li>
+        <li>💳 <strong>Note Paiement :</strong> Acompte de 70% requis pour les nouvelles commandes. Paiement à la livraison réservé aux clients fidèles.</li>
+    </ul>
+        </div>
+        <div>
+            <h3 style="color: var(--gold);">Contactez-nous</h3>
+            <p>Besoin d'aide ? Envoyez-nous un message !</p>
+            <a href="https://wa.me/2290157129474" style="color: #25D366; text-decoration: none; font-weight: bold; font-size: 1.2rem;">+229 01 57 12 94 74</a>
+        </div>
+    </div>
+    <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
+    <p>&copy; 2026 AMATERASU SHOP - Tous droits réservés.</p>
+</footer>
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+</div>
+</body>
+</html>
