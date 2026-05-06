@@ -759,7 +759,7 @@ const produits = [
         id: 47,
         nom: "Projecteur LED Professionnel Haute Puissance",
         prix: "16 500",
-        image: "ledpro.jpg",
+        image: "ledPro.jpg",
         tags: "électronique, éclairage, pro, extérieur, sécurité",
         description: "La puissance ultime pour vos chantiers ou jardins. Une robustesse à toute épreuve pour un éclairage longue durée.",
         dispo: true
@@ -975,7 +975,7 @@ const produits = [
         id: 71,
         nom: "Ventilateur Roch sur Pied Puissant",
         prix: "10 000",
-        image: "ventiloroch.jpg",
+        image: "ventiloRoch.jpg",
         tags: "électronique, maison, roch, fraîcheur, ventilateur",
         description: "La fiabilité Roch pour votre intérieur. Silencieux et performant pour vous garantir des nuits paisibles.",
         dispo: true
